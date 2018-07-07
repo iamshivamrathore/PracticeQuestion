@@ -11,7 +11,7 @@ public class Staircase {
 		 */
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
-
+		s.close();
 		for (int i = 1; i <= n; i++) {
 			for (int j = i; j < n; j++) {
 				System.out.print(" ");
