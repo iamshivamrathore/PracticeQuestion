@@ -98,7 +98,7 @@ public class HashTables_IceCreamParlour {
 		// TODO Auto-generated method stub
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < cost.length; i++) {
-			System.out.println(map);
+	//		System.out.println(map);
 			if (map.containsKey(money - cost[i])) {
 				
 				System.out.println(map.get(money-cost[i]) + " " + (i+1));
