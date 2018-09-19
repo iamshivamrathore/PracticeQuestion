@@ -92,7 +92,7 @@ public class HashTables_IceCreamParlour {
 		}
 
 		scanner.close();
-	}
+	}	
 
 	private static void whatFlavors(int[] cost, int money) {
 		// TODO Auto-generated method stub
