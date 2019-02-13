@@ -12,7 +12,7 @@ public class QueensAttack {
 
 		r_q--;
 		c_q--;
-		n--;
+		 
 		Map<Integer, Set<Integer>> map = new HashMap<>();
 		for (int i = 0; i < obstacles.length; i++) {
 			int x = obstacles[i][0] - 1;
