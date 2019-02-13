@@ -5,12 +5,14 @@ import java.time.LocalDateTime;
 
 public class Fibonacci {
 
+	//Normal recursion
 	static long fib1(int n) {
 		if (n <= 1)
 			return n;
 		return fib1(n - 1) + fib1(n - 2);
 	}
 
+	//Recursion with storing the results
 	static long fib2(int n, long[] arr) {
 		if (n <= 1) {
 			return n;
